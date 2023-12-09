@@ -1,0 +1,263 @@
+.result 
+           {
+                display: block;
+                border-style: solid;
+                border-width: 1px;
+                margin-bottom: 20px;
+                padding:10px;
+                font-size: 20px;
+                border-radius: 13px;
+           }
+            #one {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+            }
+            #one:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #two {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+
+            }
+            #two:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #three {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+            }
+            #three:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #four {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+
+            }
+            #four:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #five {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+
+            }
+            #five:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #six {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.5s;
+            }
+            #six:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #seven {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+
+            }
+            #seven:hover {
+                background-color: rgb(63, 63, 63);
+            }
+
+            #eight {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+
+            }
+            #eight:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #nine {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s ;
+            }
+            #nine:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #zero {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s;
+            }
+            #zero:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #clear {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(153, 153, 153);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s;
+            }
+            #clear:hover {
+                background-color: rgb(116, 116, 116);
+            }
+            #equals {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(153, 153, 153);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+            }
+            #equals:hover {
+                background-color: rgb(116, 116, 116);
+            }
+            #dot {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(73, 73, 73);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s 
+
+            }
+            #dot:hover {
+                background-color: rgb(63, 63, 63);
+            }
+            #plus {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(153, 153, 153);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s;
+            }
+            #plus:hover {
+                background-color: rgb(116, 116, 116);
+            }
+            #minus {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(153, 153, 153);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s;
+            }
+            #minus:hover {
+                background-color: rgb(116, 116, 116);
+            }
+            #times {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
+                background-color: rgb(153, 153, 153);
+                border-width: 0px;
+                border-radius: 10px;
+                height: 60px;
+                width: 95px;
+                color: white;
+                margin:2px;
+                transition: background-color 0.15s;
+            }
+            #times:hover {
+                background-color: rgb(116, 116, 116);
+            }
+            .buttons {
+                background-color: rgb(32, 32, 32);
+                width: 408px;
+                height: 255px;
+                margin-bottom: 300px;
+            }
