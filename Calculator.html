@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="Calculator.css">
+    </head>
+    <body>
+    <input class="result" id="result"/>
+        <div class="buttons" id="buttons">
+            <button id="seven" onclick="stringer(7)">7</button>
+            <button id="eight" onclick="stringer(8)">8</button>
+            <button id="nine" onclick="stringer(9)">9</button>
+            <button id="times" onclick="times()">X</button>
+            <br>
+            <button id="four" onclick="stringer(4)">4</button>
+            <button id="five" onclick="stringer(5)">5</button>
+            <button id="six" onclick="stringer(6)">6</button>
+            <button id="minus" onclick="minus()">-</button>
+            <br>
+            <button id="one" onclick="stringer(1)">1</button>
+            <button id="two" onclick="stringer(2)">2</button>
+            <button id="three" onclick="stringer(3)">3</button>
+            <button id="plus" onclick="plus()">+</button>
+            <br>
+            <button id="clear" onclick="clearInput()">C</button>
+            <button id="zero" onclick="stringer(0)">0</button>
+            <button id="dot" onclick="dot()">.</button>
+            <button id="equals" onclick="equals()">=</button>
+        </div>        
+
+        <script>
+            let resultElement = document.getElementsByClassName("result")[0];
+            let char;
+            let resultElement2 = 0;
+    
+            function stringer(num) {
+                let pre = resultElement.value;
+                if (!isNaN(pre)) {
+                    let both = pre + num;
+                    resultElement.value = both;
+                } else {
+                    resultElement.value = num;
+                }
+            }
+    
+            function plus() {
+                resultElement2 = parseFloat(resultElement.value);
+                resultElement.value = '';
+                char = "p";
+            }
+            function minus() {
+                resultElement2 = parseFloat(resultElement.value);
+                resultElement.value = '';
+                char = "m";
+            }
+            function times() {
+                resultElement2 = parseFloat(resultElement.value);
+                resultElement.value = '';
+                char = "t";
+            }
+            function dot() {
+                resultElement.value += ".";
+            }
+    
+            function equals() {
+                if (char == "p") {
+                    let sum = resultElement2 + parseFloat(resultElement.value);
+                    resultElement.value = sum;
+                }
+                if (char == "m") {
+                    let sum = resultElement2 - parseFloat(resultElement.value);
+                    resultElement.value = sum;
+                }
+                if (char == "t") {
+                    let sum = resultElement2 * parseFloat(resultElement.value);
+                    resultElement.value = sum;
+                }
+                
+            }
+    
+            function clearInput() {
+                resultElement.value = "";
+                resultElement2 = "";
+                char = '';
+            }
+        </script>
+    </body>
+</html>
